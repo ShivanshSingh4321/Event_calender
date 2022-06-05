@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background:linear-gradient(45deg,#6ac1c5,#bda5ff);
+    background-origin: inherit;
+    background-position: center;
+    position: relative;
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6%
+    justify-content : space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 5px 60px;
+    top: auto;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #A020F0;
+    display: block;
+    margin: auto;
+    transition: 0.5s; 
+    }
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+
+.text-box{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-90%,-90%);
+    text-align: center;
+}
+.text-box hl{
+    font-size: 42px;
+}
+.text-box p{
+    margin: 1px 0 40px;
+    font-size: 18px;
+    color: black;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: absolute;
+    bottom: 8%;
+    left: 25%;
+}
+.hero-btn:hover{
+    border: 1px solid yellow;
+    background: yellow;
+    transition: 1s;
+    
+}
+.hero-btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: absolute;
+    bottom: 8%;
+    left: 55%;
+}
+.hero-btn1:hover{
+    border: 1px solid yellow;
+    background: yellow;
+    transition: 1s;
+    
+}
+.hero{
+    width:100%;
+    height:100%;
+    
+}
+.form-text{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  position: absolute;
+  
+}
+#calendar{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
